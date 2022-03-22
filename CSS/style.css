@@ -6,7 +6,7 @@
 }
 
 
-p, h1, h2, h3, a, footer, li, header{
+p, h1, h2, h3, a, footer, li, header, textarea{
   font-family: 'Roboto', sans-serif;
   color:var(--bluey);
 }
@@ -80,29 +80,66 @@ a{
 
 
 footer{
-    text-align:center;
+    text-align:end;
     height: 4vh;
     font-size:12px;
 }
 
 
-.button1, .button2, .buttonnav{
+button, label{
     background: none;
     border:none;
     text-shadow: 0.4px 0.4px black;
+    font-size:20px;
 }
 
 
-.button1, .button2, .buttonnav:hover{
+button, label:hover{
     cursor:pointer;
-}
-
-
-.buttonnav{
-    text-align:end;
 }
 
 
 .noteslist li{
     list-style:none;
+}
+
+
+.endnav{
+    text-align:end;
+}
+
+
+label, textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+
+textarea {
+    padding: 10px;
+    width:300px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    background-color:var(--lightbluey);
+    resize:none;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size:30px;
+    color:var(--goldy);
+}
+
+
+.note{
+    max-width:325px;
+}
+
+
+.savedelete{
+    text-align:end;
 }

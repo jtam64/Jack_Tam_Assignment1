@@ -14,7 +14,7 @@
 
 <body>
     <nav class="col-1note">
-        <button class="buttonnav" type="button"><<</button>
+        <div class="endnav"><button class="buttonnav" type="button"><<</button></div>
         <header>my notes</header>
         <ol class="noteslist">
             <li><button class="buttonnav "type="button">note one</li></button>
@@ -27,8 +27,13 @@
             <a href="">Docs</a>
         </header>
         <main class="content">
-            <article>
-                <button class="button2" type="button">+</button>
+            <article class="note">
+                <label for="story">+</label>
+                <textarea id="story" name="story" rows="5" cols="33">your note here</textarea>
+                <div class="savedelete">
+                    <button type="button">save</button>
+                    <button type="button">delete</button>
+                </div>
             </article>
         </main>
         <footer>Created by Jack Tam. No Copyright</footer>
