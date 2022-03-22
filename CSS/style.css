@@ -25,9 +25,8 @@ body {
 }
 
 
-.col-1 {
+.col-1index {
   background: var(--lightbluey);
-  flex: 1;
 }
 
 
@@ -50,12 +49,23 @@ body {
 }
 
 
-header, footer {
+header{
   background: yellowgreen;
-  height: 20vh;
+  height: 10vh;
 }
 
 
 header, footer, article, nav {
   padding: 1em;
+}
+
+
+.col-1note {
+    background: var(--lightbluey);
+    flex: 1;
+  }
+
+
+a{
+    text-decoration: none;
 }
