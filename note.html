@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,18 +11,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Notely: Notes</title>
 </head>
+
 <body>
-    <nav class="col-1note"><button type="button"><<</button></nav>
+    <nav class="col-1note">
+        <button class="buttonnav" type="button"><<</button>
+        <header>my notes</header>
+        <ol class="noteslist">
+            <li><button class="buttonnav "type="button">note one</li></button>
+            <li><button class="buttonnav" type="button">note two</li></button>
+        </ol>
+    </nav>
     <div class="col-2">
-        <header>
+        <header class="headernav">
             <a href="">About</a>
             <a href="">Docs</a>
         </header>
-      <main class="content">
-      <article>
-        <button class="button1" type="button">+</button>
-      </article>
-      </main>
-      <footer>Created by Jack Tam. No Copyright</footer>
+        <main class="content">
+            <article>
+                <button class="button2" type="button">+</button>
+            </article>
+        </main>
+        <footer>Created by Jack Tam. No Copyright</footer>
     </div>
-  </body>
+</body>

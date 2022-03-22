@@ -6,9 +6,15 @@
 }
 
 
-p, h1, h2, h3, a{
+p, h1, h2, h3, a, footer, li, header{
   font-family: 'Roboto', sans-serif;
   color:var(--bluey);
+}
+
+
+button{
+    color: var(--goldy);
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -26,7 +32,7 @@ body {
 
 
 .col-1index {
-  background: var(--lightbluey);
+  background-color: var(--lightbluey);
 }
 
 
@@ -34,6 +40,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 5;
+  background-color: var(--lightback);
 }
 
 
@@ -45,13 +52,13 @@ body {
 
 .content > article {
   flex: 4;
-  min-height: 60vh;
+  min-height: 84vh;
 }
 
 
-header{
-  background: yellowgreen;
-  height: 10vh;
+.headernav{
+  height: 9vh;
+  text-align:end;
 }
 
 
@@ -63,9 +70,39 @@ header, footer, article, nav {
 .col-1note {
     background: var(--lightbluey);
     flex: 1;
+    flex-direction:column;
   }
 
 
 a{
     text-decoration: none;
+}
+
+
+footer{
+    text-align:center;
+    height: 4vh;
+    font-size:12px;
+}
+
+
+.button1, .button2, .buttonnav{
+    background: none;
+    border:none;
+    text-shadow: 0.4px 0.4px black;
+}
+
+
+.button1, .button2, .buttonnav:hover{
+    cursor:pointer;
+}
+
+
+.buttonnav{
+    text-align:end;
+}
+
+
+.noteslist li{
+    list-style:none;
 }
